@@ -1,0 +1,30 @@
+.container {
+  flex-direction: row;
+  width: 100%;
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  min-height: 100px;
+  min-width: 200px;
+  box-shadow: 0px 0px 5px black;
+  position: relative;
+}
+.title {
+  font-size: 15px;
+  font-weight: bolder;
+}
+.note {
+  margin-top: 2px;
+  font-size: 10px;
+}
+.delete {
+  border: none;
+  color: red;
+  position: absolute;
+  background: none;
+  bottom: 0px;
+  right: 0;
+}
