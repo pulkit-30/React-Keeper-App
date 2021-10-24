@@ -6,6 +6,7 @@ form {
   height: fit-content;
   background-color: white;
   box-shadow: 0px 0px 10px rgb(163, 163, 163);
+  transition:height 0.3s ease-out;
 }
 input {
   outline: none;
@@ -51,4 +52,26 @@ textarea {
   background-color: white;
   color: #fdb827;
   border: 3px solid #fdb827;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  font-weight: bolder;
+  outline: none;
+  text-align: center;
+}
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.content {
+  overflow: auto;
+  height: 0rem;
+  transition: height 0.4s linear;
+}
+.expanded{
+  height: 15rem;
 }
