@@ -54,7 +54,12 @@ function CreateNote(props) {
             onChange={handelChange}
             value={newNote.note}
           ></textarea>
-          <button type="submit" className="btn" onClick={SubmitForm}>
+          <button
+            type="submit"
+            disabled={!newNote.title}
+            className="btn"
+            onClick={SubmitForm}
+          >
             +
           </button>
         </div>
