@@ -47,6 +47,7 @@ textarea {
   font-weight: bolder;
   transition: 0.5s;
   border: 3px solid #fdb827;
+  transform: translate(-30%, -45%);
 }
 .btn:hover {
   background-color: white;
