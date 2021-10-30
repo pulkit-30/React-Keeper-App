@@ -15,10 +15,12 @@
 .title {
   font-size: 15px;
   font-weight: bolder;
+  color: black;
 }
 .note {
   margin-top: 2px;
   font-size: 10px;
+  color: black;
 }
 .delete {
   border: none;
