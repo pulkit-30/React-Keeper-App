@@ -1,0 +1,17 @@
+#icon{
+    width: 75px;
+    cursor: pointer;
+    position: fixed;
+    padding: 60px 50px 0px 30px;
+ 
+}
+
+:root{
+    --primary-color: #e79003;
+    --secondary-color: #f3e6e6;
+}
+
+.dark-theme{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
